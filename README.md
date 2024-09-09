@@ -23,7 +23,6 @@ Key Features of This App
 
 Next Steps
 
-To make the app more feature-rich, consider adding:
 
     Command Execution: After connecting, allow users to run specific MikroTik commands and display the output.
     Error Handling: Improve the error-handling logic to deal with different connection issues more gracefully.
