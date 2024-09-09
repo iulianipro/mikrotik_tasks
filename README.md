@@ -1,4 +1,4 @@
-# mikrotik_tasks
+# mikrotik_tasks #mikrotik #android
 Connect to a MikroTik router using SSH/Flutter
  This function establishes a connection to a MikroTik router using SSH.
 	 - Parameters:
@@ -14,17 +14,20 @@ Connect to a MikroTik router using SSH/Flutter
 
 Update 2024.09.09
 
-Sample GUI 
-You can use text fields to: This is where you'll enter the MikroTik router's IP address, username, and password.
-    Connect and Disconnect buttons: This lets users connect to or disconnect from the router.
-    Any feedback you have is welcome here. This shows you whether the connection was successful or not.
-    State Management: It uses Flutter's stateful widget to manage the connection state on the user interface.
+Key Features of This App
+
+    Text Fields: For entering the MikroTik router's IP address, username, and password.
+    Connect and Disconnect Buttons: Allows users to connect to or disconnect from the router.
+    Feedback Message: Displays the current connection status to inform the user whether the connection was successful or failed.
+    State Management: Uses Flutter's stateful widget to manage the connection state on the UI.
 
 Next Steps
 
-To make the app more feature-rich, think about adding:
+To make the app more feature-rich, consider adding:
 
-    Once you've connected, you can let users run specific MikroTik commands and show them the results.
-Improve how you deal with errors to make it easier to handle different connection issues.
-You can save and show previous connections or commands.
-Make your UI look more modern with animations, custom styling, and layout improvements.
+    Command Execution: After connecting, allow users to run specific MikroTik commands and display the output.
+    Error Handling: Improve the error-handling logic to deal with different connection issues more gracefully.
+    History: Save and display previous connections or executed commands.
+    Modern UI Enhancements: Incorporate animations, custom styling, and layout improvements for a more polished look.
+
+This example serves as a foundational structure for a more extensive application. You can expand upon it based on your needs and requirements!
